@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BF717271DFC3C7100898D9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF717261DFC3C7100898D9B /* main.m */; };
+		7BF7172A1DFC3C7100898D9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF717291DFC3C7100898D9B /* AppDelegate.m */; };
+		7BF7172D1DFC3C7100898D9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF7172C1DFC3C7100898D9B /* ViewController.m */; };
+		7BF717301DFC3C7100898D9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF7172E1DFC3C7100898D9B /* Main.storyboard */; };
+		7BF717321DFC3C7100898D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF717311DFC3C7100898D9B /* Assets.xcassets */; };
+		7BF717351DFC3C7100898D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF717331DFC3C7100898D9B /* LaunchScreen.storyboard */; };
+		7BF717401DFC3C7100898D9B /* RemindNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF7173F1DFC3C7100898D9B /* RemindNoteTests.m */; };
+		7BF7174B1DFC3C7100898D9B /* RemindNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF7174A1DFC3C7100898D9B /* RemindNoteUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BF7173C1DFC3C7100898D9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BF7171A1DFC3C7100898D9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BF717211DFC3C7100898D9B;
+			remoteInfo = RemindNote;
+		};
+		7BF717471DFC3C7100898D9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BF7171A1DFC3C7100898D9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BF717211DFC3C7100898D9B;
+			remoteInfo = RemindNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BF717221DFC3C7100898D9B /* RemindNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF717261DFC3C7100898D9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BF717281DFC3C7100898D9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BF717291DFC3C7100898D9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BF7172B1DFC3C7100898D9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7BF7172C1DFC3C7100898D9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BF7172F1DFC3C7100898D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BF717311DFC3C7100898D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BF717341DFC3C7100898D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BF717361DFC3C7100898D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF7173B1DFC3C7100898D9B /* RemindNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF7173F1DFC3C7100898D9B /* RemindNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemindNoteTests.m; sourceTree = "<group>"; };
+		7BF717411DFC3C7100898D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF717461DFC3C7100898D9B /* RemindNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF7174A1DFC3C7100898D9B /* RemindNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemindNoteUITests.m; sourceTree = "<group>"; };
+		7BF7174C1DFC3C7100898D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BF7171F1DFC3C7100898D9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF717381DFC3C7100898D9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF717431DFC3C7100898D9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BF717191DFC3C7100898D9B = {
+			isa = PBXGroup;
+			children = (
+				7BF717241DFC3C7100898D9B /* RemindNote */,
+				7BF7173E1DFC3C7100898D9B /* RemindNoteTests */,
+				7BF717491DFC3C7100898D9B /* RemindNoteUITests */,
+				7BF717231DFC3C7100898D9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BF717231DFC3C7100898D9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BF717221DFC3C7100898D9B /* RemindNote.app */,
+				7BF7173B1DFC3C7100898D9B /* RemindNoteTests.xctest */,
+				7BF717461DFC3C7100898D9B /* RemindNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BF717241DFC3C7100898D9B /* RemindNote */ = {
+			isa = PBXGroup;
+			children = (
+				7BF717281DFC3C7100898D9B /* AppDelegate.h */,
+				7BF717291DFC3C7100898D9B /* AppDelegate.m */,
+				7BF7172B1DFC3C7100898D9B /* ViewController.h */,
+				7BF7172C1DFC3C7100898D9B /* ViewController.m */,
+				7BF7172E1DFC3C7100898D9B /* Main.storyboard */,
+				7BF717311DFC3C7100898D9B /* Assets.xcassets */,
+				7BF717331DFC3C7100898D9B /* LaunchScreen.storyboard */,
+				7BF717361DFC3C7100898D9B /* Info.plist */,
+				7BF717251DFC3C7100898D9B /* Supporting Files */,
+			);
+			path = RemindNote;
+			sourceTree = "<group>";
+		};
+		7BF717251DFC3C7100898D9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BF717261DFC3C7100898D9B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BF7173E1DFC3C7100898D9B /* RemindNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BF7173F1DFC3C7100898D9B /* RemindNoteTests.m */,
+				7BF717411DFC3C7100898D9B /* Info.plist */,
+			);
+			path = RemindNoteTests;
+			sourceTree = "<group>";
+		};
+		7BF717491DFC3C7100898D9B /* RemindNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BF7174A1DFC3C7100898D9B /* RemindNoteUITests.m */,
+				7BF7174C1DFC3C7100898D9B /* Info.plist */,
+			);
+			path = RemindNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BF717211DFC3C7100898D9B /* RemindNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF7174F1DFC3C7100898D9B /* Build configuration list for PBXNativeTarget "RemindNote" */;
+			buildPhases = (
+				7BF7171E1DFC3C7100898D9B /* Sources */,
+				7BF7171F1DFC3C7100898D9B /* Frameworks */,
+				7BF717201DFC3C7100898D9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemindNote;
+			productName = RemindNote;
+			productReference = 7BF717221DFC3C7100898D9B /* RemindNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BF7173A1DFC3C7100898D9B /* RemindNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF717521DFC3C7100898D9B /* Build configuration list for PBXNativeTarget "RemindNoteTests" */;
+			buildPhases = (
+				7BF717371DFC3C7100898D9B /* Sources */,
+				7BF717381DFC3C7100898D9B /* Frameworks */,
+				7BF717391DFC3C7100898D9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BF7173D1DFC3C7100898D9B /* PBXTargetDependency */,
+			);
+			name = RemindNoteTests;
+			productName = RemindNoteTests;
+			productReference = 7BF7173B1DFC3C7100898D9B /* RemindNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BF717451DFC3C7100898D9B /* RemindNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF717551DFC3C7100898D9B /* Build configuration list for PBXNativeTarget "RemindNoteUITests" */;
+			buildPhases = (
+				7BF717421DFC3C7100898D9B /* Sources */,
+				7BF717431DFC3C7100898D9B /* Frameworks */,
+				7BF717441DFC3C7100898D9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BF717481DFC3C7100898D9B /* PBXTargetDependency */,
+			);
+			name = RemindNoteUITests;
+			productName = RemindNoteUITests;
+			productReference = 7BF717461DFC3C7100898D9B /* RemindNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BF7171A1DFC3C7100898D9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "花磊";
+				TargetAttributes = {
+					7BF717211DFC3C7100898D9B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U63KAYW5KQ;
+						ProvisioningStyle = Automatic;
+					};
+					7BF7173A1DFC3C7100898D9B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U63KAYW5KQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7BF717211DFC3C7100898D9B;
+					};
+					7BF717451DFC3C7100898D9B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U63KAYW5KQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7BF717211DFC3C7100898D9B;
+					};
+				};
+			};
+			buildConfigurationList = 7BF7171D1DFC3C7100898D9B /* Build configuration list for PBXProject "RemindNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BF717191DFC3C7100898D9B;
+			productRefGroup = 7BF717231DFC3C7100898D9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BF717211DFC3C7100898D9B /* RemindNote */,
+				7BF7173A1DFC3C7100898D9B /* RemindNoteTests */,
+				7BF717451DFC3C7100898D9B /* RemindNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BF717201DFC3C7100898D9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF717351DFC3C7100898D9B /* LaunchScreen.storyboard in Resources */,
+				7BF717321DFC3C7100898D9B /* Assets.xcassets in Resources */,
+				7BF717301DFC3C7100898D9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF717391DFC3C7100898D9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF717441DFC3C7100898D9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BF7171E1DFC3C7100898D9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF7172D1DFC3C7100898D9B /* ViewController.m in Sources */,
+				7BF7172A1DFC3C7100898D9B /* AppDelegate.m in Sources */,
+				7BF717271DFC3C7100898D9B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF717371DFC3C7100898D9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF717401DFC3C7100898D9B /* RemindNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF717421DFC3C7100898D9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF7174B1DFC3C7100898D9B /* RemindNoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BF7173D1DFC3C7100898D9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BF717211DFC3C7100898D9B /* RemindNote */;
+			targetProxy = 7BF7173C1DFC3C7100898D9B /* PBXContainerItemProxy */;
+		};
+		7BF717481DFC3C7100898D9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BF717211DFC3C7100898D9B /* RemindNote */;
+			targetProxy = 7BF717471DFC3C7100898D9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BF7172E1DFC3C7100898D9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BF7172F1DFC3C7100898D9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BF717331DFC3C7100898D9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BF717341DFC3C7100898D9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BF7174D1DFC3C7100898D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BF7174E1DFC3C7100898D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BF717501DFC3C7100898D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U63KAYW5KQ;
+				INFOPLIST_FILE = RemindNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pktech.RemindNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BF717511DFC3C7100898D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U63KAYW5KQ;
+				INFOPLIST_FILE = RemindNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pktech.RemindNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BF717531DFC3C7100898D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U63KAYW5KQ;
+				INFOPLIST_FILE = RemindNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pktech.RemindNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemindNote.app/RemindNote";
+			};
+			name = Debug;
+		};
+		7BF717541DFC3C7100898D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U63KAYW5KQ;
+				INFOPLIST_FILE = RemindNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pktech.RemindNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemindNote.app/RemindNote";
+			};
+			name = Release;
+		};
+		7BF717561DFC3C7100898D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U63KAYW5KQ;
+				INFOPLIST_FILE = RemindNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pktech.RemindNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RemindNote;
+			};
+			name = Debug;
+		};
+		7BF717571DFC3C7100898D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U63KAYW5KQ;
+				INFOPLIST_FILE = RemindNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pktech.RemindNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RemindNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BF7171D1DFC3C7100898D9B /* Build configuration list for PBXProject "RemindNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF7174D1DFC3C7100898D9B /* Debug */,
+				7BF7174E1DFC3C7100898D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF7174F1DFC3C7100898D9B /* Build configuration list for PBXNativeTarget "RemindNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF717501DFC3C7100898D9B /* Debug */,
+				7BF717511DFC3C7100898D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BF717521DFC3C7100898D9B /* Build configuration list for PBXNativeTarget "RemindNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF717531DFC3C7100898D9B /* Debug */,
+				7BF717541DFC3C7100898D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BF717551DFC3C7100898D9B /* Build configuration list for PBXNativeTarget "RemindNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF717561DFC3C7100898D9B /* Debug */,
+				7BF717571DFC3C7100898D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BF7171A1DFC3C7100898D9B /* Project object */;
+}
